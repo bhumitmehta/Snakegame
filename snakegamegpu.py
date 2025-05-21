@@ -122,7 +122,7 @@ class Agent:
 
 
 # Update the MODEL_PATH to include the correct directory and file name
-MODEL_PATH = './snake_model.keras'
+MODEL_PATH = './model/snake_model.keras'
 # Load the saved model if it exists
 agent = Agent()
 # Update the model loading logic to correctly load the state dictionary
